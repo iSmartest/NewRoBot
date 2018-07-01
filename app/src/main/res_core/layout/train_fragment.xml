@@ -1,0 +1,135 @@
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar_layout" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="396px"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/home_banner" />
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dp"
+            android:id="@+id/fileid_Record"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="98px"
+                android:layout_height="98px"
+                android:src="@drawable/field_record"/>
+
+            <TextView
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:textSize="40px"
+                android:textColor="@color/vipTextColor"
+                android:layout_height="wrap_content"
+                android:text="现场记录" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider_gray"/>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/traiNing"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="98px"
+                android:layout_height="98px"
+                android:src="@drawable/training"/>
+
+            <TextView
+                android:layout_marginTop="50px"
+                android:textSize="40px"
+                android:textColor="@color/vipTextColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="销售训练室" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray"/>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/mainTenance"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="98px"
+                android:layout_height="98px"
+                android:src="@drawable/maintenance"/>
+
+            <TextView
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:textSize="40px"
+                android:textColor="@color/vipTextColor"
+                android:layout_height="wrap_content"
+                android:text="维修保养室" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+<View
+    android:layout_width="1px"
+    android:layout_height="match_parent"
+    android:background="@color/divider_gray"/>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/insuyance_Claims"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="98px"
+                android:layout_height="98px"
+
+                android:src="@drawable/insurance_claims"/>
+
+            <TextView
+                android:textSize="40px"
+                android:textColor="@color/vipTextColor"
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="保险理赔室" />
+
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

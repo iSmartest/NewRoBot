@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.furuiintelligence.newrobot.ui.activity.home.intformtion.VIPActivity">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_width="match_parent"
+        android:background="@mipmap/bg_icon_vip"
+        android:layout_height="368px">
+
+        <include
+            layout="@layout/titlebar_layout"/>
+        <ImageView
+            android:layout_width="98px"
+            android:layout_height="98px"
+            android:id="@+id/vip_icon"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/icon_vip_img"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张先生"
+            android:id="@+id/vip_Name"
+            android:layout_below="@id/vip_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34px"
+            android:textSize="36px"
+            android:textColor="@color/white"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:paddingLeft="30px"
+            android:paddingTop="20px"
+            android:layout_weight="1"
+            android:paddingBottom="14px"
+            android:layout_height="wrap_content"
+            android:text="资料"
+            android:textColor="@color/homeTextColor"
+            android:textSize="32px"/>
+        <ImageView
+            android:id="@+id/vip_Write"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="30px"
+            android:layout_height="match_parent"
+            android:src="@mipmap/write"
+            />
+        
+    </com.zhy.autolayout.AutoLinearLayout>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="80px"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名：涨涨涨"
+                android:layout_marginTop="18px"
+                android:textSize="28px"
+                android:id="@+id/vipNames"
+                android:textColor="@color/vipTextColor"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性别：男"
+                android:textSize="28px"
+                android:textColor="@color/vipTextColor"
+                android:layout_below="@id/vipNames"
+                android:layout_marginTop="18px"
+                android:id="@+id/vipSex"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/vipTextColor"
+                android:layout_below="@id/vipSex"
+                android:layout_marginTop="18px"
+                android:id="@+id/vipAge"
+                android:textSize="28px"
+                android:text="年龄：36"/>
+
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+        <com.zhy.autolayout.AutoRelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/background"
+            android:paddingLeft="80px"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话：15830777777"
+                android:layout_marginTop="18px"
+                android:textSize="28px"
+                android:id="@+id/vipPhone"
+                android:textColor="@color/vipTextColor"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="工作：CEO"
+                android:textSize="28px"
+                android:textColor="@color/vipTextColor"
+                android:layout_below="@id/vipPhone"
+                android:layout_marginTop="18px"
+                android:id="@+id/vipWork"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/vipTextColor"
+                android:layout_below="@id/vipWork"
+                android:layout_marginTop="18px"
+                android:textSize="28px"
+                android:id="@+id/vipAddsees"
+                android:text="地址：北京朝阳"/>
+
+
+
+        </com.zhy.autolayout.AutoRelativeLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28px"
+        android:id="@+id/vipId"
+        android:textColor="@color/vipTextColor"
+        android:layout_marginBottom="44px"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="80px"
+        android:text="身份证：1825151551551515151"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32px"
+        android:paddingTop="20px"
+        android:paddingBottom="20px"
+        android:paddingLeft="30px"
+        android:textColor="@color/homeTextColor"
+        android:text="销售追踪"/>
+    <com.donkingliang.labels.LabelsView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/vip_LabelView"
+        android:layout_width="match_parent"
+        android:paddingLeft="7dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        app:labelBackground="@drawable/label_bg_vip"
+        app:labelTextColor="@drawable/label_text_color"
+        app:labelTextSize="14sp"
+        app:labelTextPaddingLeft="7dp"
+        app:labelTextPaddingTop="3dp"
+        app:labelTextPaddingRight="7dp"
+        app:labelTextPaddingBottom="3dp"
+        app:lineMargin="10dp"
+        app:wordMargin="10dp"
+        android:layout_marginBottom="15dp"
+         />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="32px"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:paddingLeft="30px"
+            android:textColor="@color/homeTextColor"
+            android:text="VIP客户"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/vip_Add"
+            android:paddingLeft="30px"
+            android:paddingRight="30px"
+            android:textSize="32px"
+            android:textColor="@color/vipTextColor"
+            />
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.furuiintelligence.newrobot.ui.view.CopyOfMyRecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/mCopyRecyclerView"
+        android:layout_height="match_parent">
+
+    </com.furuiintelligence.newrobot.ui.view.CopyOfMyRecyclerView>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

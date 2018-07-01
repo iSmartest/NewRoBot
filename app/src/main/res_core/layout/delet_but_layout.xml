@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/id_item_btn"
+        android:layout_width="188px"
+        android:layout_height="250px"
+        android:text="删除"
+        android:background="@android:color/holo_red_light"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

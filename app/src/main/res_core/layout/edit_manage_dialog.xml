@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@color/zz_half_transparent"
+    android:gravity="center_horizontal|center_vertical">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+
+        android:layout_width="604px"
+        android:background="@drawable/dialog_bg"
+        android:layout_height="418px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="36px"
+            android:layout_height="wrap_content"
+            android:textColor="#1D6583"
+            android:id="@+id/dialogTitle"
+            android:maxEms="6"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="84px"
+            android:text="客户资料已提取是否保存？"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是"
+            android:layout_below="@id/dialogTitle"
+            android:layout_marginLeft="98px"
+            android:layout_marginTop="98px"
+            android:clickable="true"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:id="@+id/dialogButPost"
+            android:background="@drawable/edit_bg_dialog_bg"
+            android:paddingLeft="35px"
+            android:paddingRight="35px"
+            android:textColor="@color/white"
+            android:textSize="36px"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36px"
+            android:text="否"
+            android:id="@+id/dialogButNo"
+            android:background="@drawable/edit_bg_dialog_bg_1"
+            android:paddingRight="35px"
+            android:paddingLeft="35px"
+            android:paddingTop="5px"
+            android:paddingBottom="5px"
+            android:textColor="@color/colorPrimary"
+            android:layout_toRightOf="@id/dialogButPost"
+            android:layout_marginTop="98px"
+            android:layout_marginLeft="220px"
+            android:layout_below="@id/dialogTitle"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

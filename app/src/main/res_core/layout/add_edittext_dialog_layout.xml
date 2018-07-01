@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:padding="15px"
+        android:background="@null"
+        android:id="@+id/add_EditText"
+        android:gravity="left"
+        android:textSize="28px"
+        />
+
+</com.zhy.autolayout.AutoLinearLayout>

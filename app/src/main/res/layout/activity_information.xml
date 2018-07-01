@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.home.intformtion.InformationActivity">
+
+
+    <include
+        layout="@layout/titlebar_layout"/>
+    <com.furuiintelligence.newrobot.ui.view.IconCenterEditText
+        android:id="@+id/mIconCenter"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="68px"
+        android:layout_marginRight="68px"
+        style="@style/StyleEditText"
+        />
+    <com.donkingliang.labels.LabelsView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/labels"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="68px"
+        android:layout_marginTop="16px"
+        android:layout_height="wrap_content"
+        app:labelTextColor="@drawable/label_text_color"
+        app:labelTextSize="36px"
+        app:labelTextPaddingLeft="30px"
+        app:labelTextPaddingTop="10px"
+        app:labelTextPaddingRight="68px"
+        app:labelTextPaddingBottom="10px"
+        app:selectType="SINGLE"
+        app:lineMargin="40px"
+        app:wordMargin="40px"
+        android:layout_marginBottom="20px"
+        app:maxSelect="1" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray"/>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:dividerHeight="1px"
+        android:divider="@color/divider_gray"
+        android:id="@+id/information_ListView"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/infoLayouts"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="400px"
+            android:layout_height="360px"
+            android:src="@drawable/loding_err"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂时没有数据哦"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

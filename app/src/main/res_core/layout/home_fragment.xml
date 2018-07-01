@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center_horizontal">
+
+
+    <com.zhy.autolayout.AutoRelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.youth.banner.Banner
+            android:id="@+id/mBanner"
+            android:layout_width="match_parent"
+            android:layout_height="510px">
+        </com.youth.banner.Banner>
+        <include
+            layout="@layout/titlebar_layout"/>
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/divider_gray"/>
+ <GridView
+     android:layout_width="match_parent"
+     android:id="@+id/homeGridView"
+     android:columnWidth="2px"
+        android:background="@color/divider_gray"
+     android:numColumns="3"
+     android:horizontalSpacing="1px"
+     android:verticalSpacing="1px"
+     android:layout_height="wrap_content">
+
+ </GridView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重要通知"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="14px"
+        android:textColor="@color/homeTextColor"/>
+    <ListView
+        android:id="@+id/homeListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

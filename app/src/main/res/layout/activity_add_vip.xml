@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.furuiintelligence.newrobot.ui.activity.home.intformtion.AddVIPActivity">
+
+    <include layout="@layout/titlebar_layout"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="姓名："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addName"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="年龄："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:id="@+id/addAge"
+                    android:text="郭富城"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="性别："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addSex"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="电话："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addPhone"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="身份证："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="24px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addId"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="工作："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addWork"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="行业："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addIndustry"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="收入："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addIncome"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="地址："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:background="@null"
+                    android:id="@+id/addRess"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+
+            <com.zhy.autolayout.AutoLinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="128px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="30px"
+                    android:text="购车意向："
+                    android:textColor="@color/vipTextColor"
+                    android:textSize="32px"
+                    android:paddingRight="54px"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="32px"
+                    android:text="郭富城"
+                    android:id="@+id/addIntention"
+                    android:background="@null"
+                    android:textColor="@color/vipTextColor"
+                    android:gravity="center_vertical"/>
+            </com.zhy.autolayout.AutoLinearLayout>
+
+        </com.zhy.autolayout.AutoLinearLayout>
+    </ScrollView>
+
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

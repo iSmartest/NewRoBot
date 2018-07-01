@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">NewRoBot</string>
+    <string name="action_settings">赋睿智能</string>
+    <!-- 录音 -->
+    <string name="normal">按住 说话</string>
+    <string name="recording">松开 结束</string>
+    <string name="want_to_cancle">松开手指，取消发送</string>
+    <string name="shouzhishanghua">手指上滑，取消发送</string>
+    <string name="tooshort">录音时间过短</string>
+    <string name="toolong">录音时间过长</string>
+
+    <string name="app_home">首页</string>
+    <string name="app_train">训练</string>
+    <string name="app_stop">停止</string>
+    <string name="app_mine">我的</string>
+    <string name="_settings">设置</string>
+
+    <string name="phone_validation">请输入正确手机号码</string>
+    <string name="phone_null">手机号不能为空</string>
+    <string name="sms_verification">请输入6位数字验证码</string>
+    <string name="sms_null">验证码不能为空</string>
+    <string name="tos_Sign_out">双退出Robot</string>
+
+
+    <string name="todo">待办事宜</string>
+    <string name="Customer">客户资料</string>
+    <string name="myRobot">机器人</string>
+    <string name="new_Purchase_Point">新品买点</string>
+    <string name="product_sales">产品销售</string>
+    <string name="emergency_stop">紧急停止</string>
+
+
+</resources>

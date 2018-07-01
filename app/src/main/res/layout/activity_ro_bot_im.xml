@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.train.RoBotIMActivity">
+
+    <include
+        layout="@layout/titlebar_layout"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是什么什么没什么什么模式没什么"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="32px"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/imRcView"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1px"
+    android:background="@color/divider_gray"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px">
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:paddingLeft="20px"-->
+            <!--android:paddingRight="20px"-->
+            <!--android:src="@drawable/im_im_"-->
+           <!--/>-->
+        <com.furuiintelligence.newrobot.ui.view.audiobutton.RecordButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_height="65px"
+            android:id="@+id/mButon"
+            android:visibility="gone"
+            android:background="@drawable/im_edit_bg"
+            android:text="按住说话"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="65px"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/mEdit"
+            android:paddingLeft="5px"
+            android:background="@drawable/im_edit_bg"
+            android:gravity="center_vertical"
+            android:text="你好啊"
+
+            android:layout_marginRight="15px"/>
+
+        <CheckBox
+            android:layout_width="120px"
+            android:layout_height="60px"
+            android:layout_gravity="center_vertical"
+            android:button="@null"
+            android:layout_marginRight="15px"
+           android:gravity="center_horizontal|center_vertical"
+            android:text="发送" />
+
+    </com.zhy.autolayout.AutoLinearLayout>
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:id="@+id/im_fragment"
+        android:visibility="gone"
+        android:layout_height="0dp">
+
+
+    </FrameLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

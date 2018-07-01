@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="152px"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="108px"
+        android:layout_height="108px"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="30px"
+        android:layout_marginBottom="26px"
+        android:id="@+id/my_List_Item_Img"
+        android:src="@mipmap/icon_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@id/my_List_Item_Img"
+        android:layout_height="80px"
+        android:layout_marginLeft="34px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="30px"
+        android:textColor="@color/vipTextColor"
+        android:id="@+id/my_List_Item_Content"
+        android:textSize="28px"
+        android:text="dadsadsafasfsafdsfsdfdsfsdfsfdsfdsfsfsdfsdfsdfsdfdsf"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018.4.23"
+        android:id="@+id/my_List_Item_Date"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30px"
+        android:layout_marginBottom="10px"/>
+</com.zhy.autolayout.AutoRelativeLayout>

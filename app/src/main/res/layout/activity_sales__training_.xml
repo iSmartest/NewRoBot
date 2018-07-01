@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.furuiintelligence.newrobot.ui.activity.prodctsales.Sales_Training_Activity">
+
+    <include
+        layout="@layout/titlebar_layout"/>
+
+<!--<com.zhy.autolayout.AutoLinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:orientation="vertical"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageView-->
+        <!--android:layout_width="198px"-->
+        <!--android:layout_height="198px"-->
+        <!--android:layout_marginLeft="88px"-->
+        <!--android:layout_marginRight="88px"-->
+        <!--android:layout_marginTop="28px"-->
+        <!--android:src="@mipmap/word_img_icon"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10px"-->
+        <!--android:layout_marginBottom="10px"-->
+        <!--android:text="岗前培训"-->
+        <!--android:textColor="@color/vipTextColor"/>-->
+<!--</com.zhy.autolayout.AutoLinearLayout>-->
+
+    <com.xiao.nicevideoplayer.NiceVideoPlayer
+        android:layout_width="match_parent"
+        android:id="@+id/nice_video_player"
+        android:layout_height="match_parent">
+
+    </com.xiao.nicevideoplayer.NiceVideoPlayer>
+</com.zhy.autolayout.AutoLinearLayout>

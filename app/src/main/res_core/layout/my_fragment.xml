@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:background="@drawable/my_backround"
+        android:layout_width="match_parent"
+        android:layout_height="500px">
+        <include
+            layout="@layout/titlebar_layout"/>
+
+        <ImageView
+            android:layout_width="118px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_height="118px"
+            android:id="@+id/my_icon_img"
+            android:src="@mipmap/icon_vip_img"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36px"
+            android:text="小李"
+            android:id="@+id/mName"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/my_icon_img"
+            android:layout_marginTop="26px"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="2.345"
+            android:id="@+id/my_doubel_no"
+            android:textSize="36px"
+            android:layout_marginTop="400px"
+            android:layout_marginLeft="72px"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:text="销售指数"
+            android:textColor="@color/white"
+            android:layout_marginLeft="72px"
+            android:layout_below="@id/my_doubel_no"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="36px"
+            android:text="2.345"
+            android:id="@+id/my_doubel_nos"
+            android:layout_toRightOf="@id/my_doubel_no"
+            android:layout_marginTop="400px"
+            android:layout_marginLeft="400px"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成功指数"
+            android:textSize="28px"
+            android:textColor="@color/white"
+            android:layout_below="@id/my_doubel_nos"
+            android:layout_toRightOf="@id/my_doubel_no"
+            android:layout_marginLeft="380px"/>
+
+
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+    <TextView
+        android:layout_width="198px"
+        android:layout_height="64px"
+        android:text="销售心得"
+        android:gravity="center"
+        android:id="@+id/mXd"
+        android:background="@drawable/my_bg_text"
+        android:layout_marginTop="465px"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_below="@id/mXd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            layout="@layout/layout_list_ptr"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

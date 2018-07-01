@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.furuiintelligence.newrobot.ui.activity.my.ModificationActivity">
+
+    <include
+        layout="@layout/titlebar_layout"/>
+
+
+
+
+    <com.zhy.autolayout.AutoLinearLayout
+    android:background="@color/white"
+    android:layout_marginTop="1px"
+    android:layout_width="match_parent"
+    android:layout_height="100px">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="姓名："
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="30px"
+        android:textSize="30px"
+        android:textColor="@color/vipTextColor"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:text="李"
+        android:id="@+id/modif_Name"
+        android:textSize="30px"
+        android:layout_height="match_parent"
+        android:background="@null"/>
+</com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:background="@color/white"
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="性别："
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="30px"
+            android:textSize="30px"
+            android:textColor="@color/vipTextColor"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:text="人妖"
+            android:id="@+id/modif_Sex"
+
+            android:textSize="30px"
+            android:layout_height="match_parent"
+            android:background="@null"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:background="@color/white"
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="年龄："
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="30px"
+            android:textSize="30px"
+            android:textColor="@color/vipTextColor"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:text="250"
+            android:id="@+id/modif_Age"
+            android:textSize="30px"
+            android:layout_height="match_parent"
+            android:background="@null"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:background="@color/white"
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="职位："
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="30px"
+            android:textSize="30px"
+            android:textColor="@color/vipTextColor"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:text="销售员"
+            android:id="@+id/modif_Work"
+
+            android:textSize="30px"
+            android:layout_height="match_parent"
+            android:background="@null"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:background="@color/white"
+        android:layout_marginTop="1px"
+        android:layout_width="match_parent"
+        android:layout_height="100px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="工号："
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:paddingLeft="30px"
+            android:textSize="30px"
+            android:textColor="@color/vipTextColor"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:text="250"
+            android:id="@+id/modif_Number"
+            android:textSize="30px"
+            android:layout_height="match_parent"
+            android:background="@null"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>
